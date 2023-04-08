@@ -43,7 +43,8 @@ export class ApiService {
 
     getAllLecturersBySearchTerm(searchTerm: string){
     return this.http.get<Array<ILecturers>>(LECTURERS_BY_SEARCH_URL + searchTerm);
-
+      console.log('test')
   }
+
 
 }
